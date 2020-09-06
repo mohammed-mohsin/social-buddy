@@ -1,0 +1,147 @@
+.container > .box > .box-comments > .comment > .content > h6 {
+    color: #E4E6E0;
+    margin-bottom: -4px;
+    margin-top: -2px;
+    font-weight: 600;
+    line-height:1.2308;
+    margin-left: 10px;
+  }
+  .container > .box > .box-comments > .comment > .content > p {
+    color: #E4E6E0;
+    font-size: 13px;
+    margin-bottom: -4px;
+    margin-top: -2px;
+    padding: 0;
+    line-height:1.2308;
+    margin-left: 10px;
+  }
+  .container > .box > .box-new-comment {
+  
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 30px;
+    position: relative;
+  }
+  .container > .box > .box-new-comment > img {
+    border-radius: 100px;
+    float: left;
+    height: 40px;
+    margin: 0;
+    object-fit: cover;
+    width: 40px;  
+  }
+  .container > .box > .box-new-comment > .content {
+    border-radius: 20px;
+    margin: 4px 0 0 52px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: initial;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+  }
+  .container > .box > .box-new-comment > .content > .row {
+    background: transparent;
+    display: inline-block;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+  }
+  .container > .box > .box-new-comment > .content > .row:last-child {
+    color: #C6C9D0;
+    font-size: 22px;
+    height: 28px;
+    line-height: 27px;
+    margin: 2px 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 10px;
+    width: 40px;
+  }
+  .container > .box > .box-new-comment > .content > .row:last-child > span {cursor: pointer;}
+  .container > .box > .box-new-comment > .content > .row > textarea {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: #555;
+    outline: 0;
+    padding: 0 40px 0 10px;
+    resize: none;
+    width: calc(100% - 52px) !important;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+  }
+  .container > .box.update,
+  .container > .box.text {
+    box-shadow: none;
+    padding: 20px 0 0;
+  }
+  .container > .box.update > .box-header,
+  .container > .box.text > .box-header {
+    padding: 0 30px;
+  }
+  .container > .box.update > .box-header > span,
+  .container > .box.text > .box-header > span{
+    background: transparent;
+    color: #9298A4;
+    font-size: 32px;
+    margin: -10px auto 0;
+  }
+  .container > .box.update > .box-content > .content > p,
+  .container > .box.text > .box-content > .content > h3 {
+  
+    color: #E4E3E5;
+    /* font-size: 14px; */
+    line-height: 22px;
+    padding: 26px 30px;
+    font-style: italic;
+    font-weight: bold;
+    line-height:30px
+  }
+  .container > .box.update > .box-content > .content > .img {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: initial;
+  }
+  .container > .box.update > .box-content > .content > .img:before {
+    border: 1px solid rgba(0,0,0,.25);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+  .container > .box.text > .box-buttons > .row > button {
+    font-size: 13px;
+    
+  }
+  .container > .box.text > .box-buttons > .row > button > span {
+    font-size: 20px;
+  }
+  .container > .box.image > .box-new-comment > .content,
+  .container > .box.image > .box-new-comment > .content > .row > textarea,
+  .container > .box.video > .box-new-comment > .content,
+  .container > .box.video > .box-new-comment > .content > .row > textarea {
+    background: #9298A4;
+    -webkit-transition: all .25s ease-in-out;
+       -moz-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;  
+  }
+  .container > .box > .box-new-comment > .content > .row > textarea:focus,
+  .container > .box.image > .box-new-comment > .content:active > .row {background: #3A3B3C;}
+  .container > .box > .box-new-comment > .content > .row > textarea,
+  .container > .box.image > .box-new-comment > .content:active > .row {background: #3A3B3C;}
+  .container > .box > .box-new-comment > .content > .row > textarea:focus,
+  .container > .box.video  .box-new-comment > .content:active > .row {background: #3A3B3C;}
